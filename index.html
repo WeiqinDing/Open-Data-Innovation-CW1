@@ -302,7 +302,7 @@
             .append("path")
             .attr("d", path);
 
-        d3.csv("./CW1-No-NAN-data.csv", function (error, cities) {
+        d3.csv("./CW1-Data.csv", function (error, cities) {
 
             elecPoints = svg.selectAll("circle")
                 .data(cities)

@@ -2,8 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40c86c46-007b-4ca4-a8c5-4c75f4849a19" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/Report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CW1-data-new.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/CW1-data.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cities.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -42,27 +46,27 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="10754" />
+          <entry key="html" value="10762" />
           <entry key="md" value="260" />
-          <entry key="txt" value="130" />
+          <entry key="txt" value="182" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="10754" />
+          <entry key="HTML" value="10762" />
           <entry key="Markdown" value="260" />
-          <entry key="PLAIN_TEXT" value="130" />
+          <entry key="PLAIN_TEXT" value="182" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-437">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="305">
+              <caret line="304" column="26" selection-start-line="304" selection-start-column="26" selection-end-line="304" selection-end-column="26" />
               <folding>
                 <element signature="e#3373#7240#0" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
@@ -74,24 +78,17 @@
                 <element signature="n#style#0;n#span#0;n#divdiv#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#6;n#!!top" expanded="true" />
                 <element signature="e#8695#9157#0" />
-                <element signature="e#9479#12946#0" />
-                <element signature="e#11299#12934#0" />
-                <element signature="e#13722#14971#0" />
-                <element signature="e#15026#16277#0" />
-                <element signature="e#16329#16961#0" />
-                <element signature="e#17019#18146#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Report.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="679">
-              <caret line="238" column="151" lean-forward="true" selection-start-line="238" selection-start-column="151" selection-end-line="238" selection-end-column="151" />
+            <state relative-caret-position="2433">
+              <caret line="238" column="151" selection-start-line="238" selection-start-column="151" selection-end-line="238" selection-end-column="151" />
               <folding>
-                <element signature="n#ul#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#ul#2;n#div#0;n#body#0;n#html#0;n#!!top" />
               </folding>
             </state>
@@ -115,8 +112,8 @@
       <list>
         <option value="$PROJECT_DIR$/D3Test.html" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/Report.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -183,7 +180,7 @@
       <updated>1552433957400</updated>
       <workItem from="1552433958696" duration="8066000" />
       <workItem from="1552476331702" duration="17383000" />
-      <workItem from="1552530693282" duration="11596000" />
+      <workItem from="1552530693282" duration="12248000" />
     </task>
     <task id="LOCAL-00001" summary="almost finished open data innovation coursework">
       <created>1552525382196</created>
@@ -220,11 +217,25 @@
       <option name="project" value="LOCAL" />
       <updated>1552580691662</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="FINISH ALL PROJECT!!!!! HAPPY :)">
+      <created>1552586950026</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1552586950026</updated>
+    </task>
+    <task id="LOCAL-00007" summary="URL change">
+      <created>1552587110576</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1552587110576</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37045000" />
+    <option name="totallyTimeSpent" value="37697000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="1027" extended-state="6" />
@@ -260,7 +271,9 @@
     <MESSAGE value="index" />
     <MESSAGE value="fix small bug that tips on map cannot show" />
     <MESSAGE value="Report project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Report project" />
+    <MESSAGE value="FINISH ALL PROJECT!!!!! HAPPY :)" />
+    <MESSAGE value="URL change" />
+    <option name="LAST_COMMIT_MESSAGE" value="URL change" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CW1-data-new.csv">
@@ -269,7 +282,7 @@
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CW1-data.csv">
+    <entry file="file://$PROJECT_DIR$/CW1-Data.csv">
       <provider editor-type-id="csv-table-editor">
         <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
       </provider>
@@ -309,10 +322,20 @@
     <entry file="file://$PROJECT_DIR$/error6.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/Report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2433">
+          <caret line="238" column="151" selection-start-line="238" selection-start-column="151" selection-end-line="238" selection-end-column="151" />
+          <folding>
+            <element signature="n#ul#2;n#div#0;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-437">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="305">
+          <caret line="304" column="26" selection-start-line="304" selection-start-column="26" selection-end-line="304" selection-end-column="26" />
           <folding>
             <element signature="e#3373#7240#0" />
             <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
@@ -324,23 +347,6 @@
             <element signature="n#style#0;n#span#0;n#divdiv#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#6;n#!!top" expanded="true" />
             <element signature="e#8695#9157#0" />
-            <element signature="e#9479#12946#0" />
-            <element signature="e#11299#12934#0" />
-            <element signature="e#13722#14971#0" />
-            <element signature="e#15026#16277#0" />
-            <element signature="e#16329#16961#0" />
-            <element signature="e#17019#18146#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="679">
-          <caret line="238" column="151" lean-forward="true" selection-start-line="238" selection-start-column="151" selection-end-line="238" selection-end-column="151" />
-          <folding>
-            <element signature="n#ul#1;n#div#0;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#ul#2;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
         </state>
       </provider>
