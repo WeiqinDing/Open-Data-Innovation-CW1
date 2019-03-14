@@ -21,9 +21,11 @@
     <p>
         <l>This is a report for the COMP6214 Open Data Innovation, Coursework-1.</l>
     </p>
+    <hr/>
 
     <h3>Data Cleaning and Manipulation</h3>
     <p>
+
     <h4>Tools</h4>
     <ul>
         <li>OpenRefine</li>
@@ -31,15 +33,213 @@
     </ul>
 
     <h4>Error Types</h4>
+    <p>
+        <l> Scan Through this dataset, there are lots of errors should be corrected. In this part, I list all the errors
+            first, and in the next part, I will give the tech about how to correct this errors.
+        </l>
+    </p>
     <ul>
+        <p>
         <li>Multiple Representions</li>
         <l>For feature “country”, Russia have two type of “country” name in short. The one is “RUS”, the other is
             “SSUR”. According to ISO 3166-1, Using “RUS” to represent Russia rather than “SSUR”. Other rows of data have
             the same errors like Chile in “CHL” and “CH”.
         </l>
-        <img src=""
+        <br/>
+        <img src="error1-1.jpg">
+        <img src="error1-2.png" width="30%" height="30%">
+        </p>
+
+        <p>
+        <li>Duplication Records</li>
+        <l>According to feature “gppd_idnr”, the database have duplication records. For instance, “WRI1000118” and 8
+            other records have their duplicated records.
+        </l>
+        <br/>
+        <img src="error2-1.png" width="30%" height="30%">
+        <img src="error2-2.png" width="30%" height="30%"><br/>
+        </p>
+
+        <p>
+        <li>Mixed use of Numerical scales</li>
+        <l>According to feature “estimated_generation_gwh”, there are some records have their value with unit. For
+            instance, “(gwh)275.90” or “(gwh)896” should correct to “275.90” and “896.00”. Meaning while, their counting
+            methods are not uniform. For instance, 6 decimal places are reserved for some records, while others kept 4,
+            3, 2 or only 1 decimal place.
+        </l>
+        <br/>
+        <img src="error4-1.png">
+
+        </p>
+
+        <p>
+        <li>Spelling Errors</li>
+        <l>For the features “country_long”, Chile’s name was spelled error as “Chill” .</l>
+        <br/>
+        <img src="error3.png">
+        </p>
+
+        <p>
+        <li>Missiong Values</li>
+        <l>In this dataset, a lot of values are missing. For instance, in feature “country_long”, some countries name
+            are missing. This kind of missing is easy to correct. What I have do is find these countries name and edit
+            them in a right way. However, some kind of values missing is hard or even impossible to correct. For
+            example, in feature “estimated_generation_gwh” there are over four hundreds of records missing it, with some
+            others are “Nil” or “(blank)”.
+        </l>
+        <br/>
+        <img src="error4-2.png">
+        <img src="error5.png">
+        </p>
+
+        <p>
+        <li>Data Dislocation</li>
+        <l>Scan all the dataset, some of the row is dislocated. For instance move one cell left from the correct
+            location.
+        </l>
+        <br/>
+        <img src="error6.png" width="30%" height="30%">
+        </p>
+
+        <p>
+        <li>Record Split</li>
+        <l>In this dataset, some record should belong to one row. However, when we check the record we can find they are
+            split into more than one row.
+        </l>
+        <br/>
+        <img src="error7.png" width="70%" height="70%">
+        </p>
     </ul>
     </p>
+    <hr/>
+
+    <h3>Solutions or Transformations</h3>
+    <p>
+        <l>From what we find before in rhe "Error Types" part, there are 7 different types of errors. Now I will give my
+            solutions or transformations to correct those data.
+        </l>
+    </p>
+    <br/>
+
+
+    <ul>
+        <p>
+        <li>Multiple Representions</li>
+        <l>According to ISO 3166-1, Using “RUS” to represent Russia rather than “SSUR”, so I changed all “SSUR” into
+            “RUS”. Other rows of data have the same errors like Chile in “CHL” and “CH”. Changing those multiple
+            representations into one specific representation can correct this error.
+        </l>
+        </p>
+
+        <p>
+        <li>Duplication Records</li>
+        <l> Using "OpenRefine" to find out these duplicated records. Delete rest of the duplicated records and leave
+            only one of them can fix this error.
+        </l>
+        </p>
+
+        <p>
+        <li>Mixed use of Numerical scales</li>
+        <l>To correct this, I decided to keep 2 decimal place for the feature “estimated_generation_gwh”. For feature
+            "longitude" and "latitude", keep 4 decimal place is a good choice. As for "capacity_mw", 2 decimal place is
+            suitable.
+        </l>
+        </p>
+
+        <p>
+        <li>Spelling Errors</li>
+        <l>For instance, features “country_long”, Chile’s name was spelled error as “Chill” . To correct this kind of
+            errors, only need to edit this cell and spelling right.
+        </l>
+        </p>
+
+        <p>
+        <li>Missing Values</li>
+        <l>In this dataset, a lot of values are missing. For instance, in feature “country_long”, some countries name
+            are missing. This kind of missing is easy to correct. What I have do is find these countries name and edit
+            them in a right way. However, some kind of values missing is hard or even impossible to correct. For
+            example, in feature “estimated_generation_gwh” there are over four hundreds of records missing it, with some
+            others are “Nil” or “(blank)”. For this kind of missing values, I choose to delete these records.
+        </l>
+        </p>
+
+        <p>
+        <li>Data Dislocation</li>
+        <l>This kind of error cannot using "OpenRefine" to correct. So, to move those data into where it belongs, I used
+            "Excel" to correct them.
+        </l>
+        </p>
+
+        <p>
+        <li>Records Split</li>
+        <l>For this kind of records, at first I tried to correct them by move multi-rows into one row, but there are
+            still some incomprehensible code. So, I have no choice bu delete them.
+        </l>
+        </p>
+    </ul>
+    <hr/>
+
+    <h3>Information about Visualisation</h3>
+    <ul>
+        <p>
+        <li>Overview</li>
+        <l> From this Demo, people who want to get some information about generations all over the world can have a
+            terse idea. Like which kind of fuel is used mostly in the world, or which fuel is the majority electricity
+            source of this country, which generation provided the most power in local area. All this information can
+            easily get from this Demo. If you want more detail information, you can get the generations` url and than
+            bower their office page.
+        </l>
+        </p>
+
+        <p>
+        <li>Function Description</li>
+        <l>The legend which located at the right of the map, show out different types of fuel plot by different colors.
+            You can <strong>click</strong> each circle point in the legend and show out the specific fuel generation
+            estimation. And how it deployed in the whole world.<br/>
+            The bottom half of the legend indicates the relationship between the size of the circle and its value.<br/>
+            In the map, you can see different types of circles. Each circle represent a generation.
+            You can <strong>move your mouse over these circles</strong>, it will show the details about this generation.
+            You can <strong>zoom in, out and drag the map</strong> to the point what you want to see.
+            Zoom in or out will not impact the circle size, so, if you want to ge more clear vision, you can zoom in.
+            At the left-up of the map, you can use button or bar to zoom, and reset the map.<br/>
+
+        </l>
+        </p>
+
+        <p>
+        <li>Advantages</li>
+        <ul>
+            <li>1.Simple</li>
+            <l>This Demo is simple enough for every one, from child to senior citizen. Everyone can play with it, you
+                just need to move, click or drag your mouse and every information you want can plot automatic.
+            </l>
+            <li>2.Intuitively</li>
+            <l>In this map, I used different color to represent different fuel types. You can also click the legend and
+                focus on what you real care about. There is no complicated chart bar or numbers for you first sight.
+                Every thing I want to tell you is on the map. Just move your mouse and get what you want.
+            </l>
+            <li>3.Precisely</li>
+            <l>This map do not only have dots to represent more than 4k generations around the world, each dot have the
+                detail about this generation which it stand for. From the name, country, to the estimated generation.
+                This demo is not just simple.
+            </l>
+        </ul>
+        </p>
+    </ul>
+    <hr/>
+
+    <h3>Reference</h3>
+    <ul>
+        <li><a href="http://bl.ocks.org/nivas8292/bec8b161587cb62e9fda">World Map with Zoom slider and Zoom and Pan options</a></li>
+        <li><a href="https://github.com/cszang/dendrobox/blob/master/data/world-110m2.json">world-110m2.json</a></li>
+        <li><a href="https://d3js.org/">D3.org</a></li>
+        <li><a href="https://www.w3schools.com/css/">CSS-Tutorial</a></li>
+        <li><a href="https://www.w3schools.com/html/default.asp">HTML-Tutorial</a></li>
+        <li><a href="http://bl.ocks.org/phil-pedruco/7745589">http://bl.ocks.org/phil-pedruco/7745589</a></li>
+        <li><a href="https://bl.ocks.org/puzzler10/49f13307e818ea9a909ba5adba5b6ed9">https://bl.ocks.org/puzzler10/49f13307e818ea9a909ba5adba5b6ed9</a></li>
+        <li><a href="https://bl.ocks.org/lorenzopub/d2d892f4a5393822f846e4f7c20202fc">d3js v4 map + zoom + mark city + drag</a></li>
+        <li><a href="http://bl.ocks.org/mbostock/4132797">Zoomable Map Tiles</a></li>
+    </ul>
 
 
 </div>
