@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="40c86c46-007b-4ca4-a8c5-4c75f4849a19" name="Default Changelist" comment="" />
+    <list default="true" id="40c86c46-007b-4ca4-a8c5-4c75f4849a19" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -15,87 +20,89 @@
     <session id="-1796382778">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="csv" value="2" />
-          <entry key="html" value="1" />
+          <entry key="csv" value="3" />
+          <entry key="html" value="2" />
+          <entry key="md" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSV" value="2" />
-          <entry key="HTML" value="1" />
+          <entry key="CSV" value="3" />
+          <entry key="HTML" value="2" />
+          <entry key="Markdown" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="4795" />
-          <entry key="txt" value="64" />
+          <entry key="html" value="6604" />
+          <entry key="md" value="260" />
+          <entry key="txt" value="116" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="4795" />
-          <entry key="PLAIN_TEXT" value="64" />
+          <entry key="HTML" value="6604" />
+          <entry key="Markdown" value="260" />
+          <entry key="PLAIN_TEXT" value="116" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="244" column="22" lean-forward="true" selection-start-line="244" selection-start-column="22" selection-end-line="244" selection-end-column="22" />
+            <state relative-caret-position="102">
+              <caret line="84" selection-start-line="84" selection-end-line="85" selection-end-column="41" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" />
-                <element signature="e#3008#3216#0" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+                <element signature="e#3373#7240#0" />
+                <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#1;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#2;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#span#0;n#div#2;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#3;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#4;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#5;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#6;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#span#7;n#!!top" expanded="true" />
-                <element signature="e#5599#6706#0" />
-                <element signature="e#11265#12900#0" />
-                <element signature="e#5592#6185#0" />
-                <element signature="e#6259#7508#0" />
-                <element signature="e#7563#8814#0" />
-                <element signature="e#8866#9498#0" />
-                <element signature="e#9556#10683#0" />
+                <element signature="n#style#0;n#span#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#4;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#divdiv#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#span#0;n#div#6;n#!!top" expanded="true" />
+                <element signature="e#8695#9157#0" />
+                <element signature="e#9479#12946#0" />
+                <element signature="e#11299#12934#0" />
+                <element signature="e#13722#14971#0" />
+                <element signature="e#15026#16277#0" />
+                <element signature="e#16329#16961#0" />
+                <element signature="e#17019#18146#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CW1-data.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Report.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="670">
+              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            </state>
           </provider>
-          <provider selected="true" editor-type-id="csv-text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/CW1-data-new.csv">
-          <provider editor-type-id="csv-table-editor">
-            <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
-          </provider>
-          <provider selected="true" editor-type-id="csv-text-editor" />
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -104,6 +111,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/D3Test.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/Report.html" />
       </list>
     </option>
   </component>
@@ -113,10 +123,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="x" value="840" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="67" />
     <option name="y" value="23" />
-    <option name="width" value="840" />
+    <option name="width" value="1613" />
     <option name="height" value="1027" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -125,6 +135,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -136,10 +147,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -168,7 +179,8 @@
       <option name="presentableId" value="Default" />
       <updated>1552433957400</updated>
       <workItem from="1552433958696" duration="8066000" />
-      <workItem from="1552476331702" duration="16542000" />
+      <workItem from="1552476331702" duration="17383000" />
+      <workItem from="1552530693282" duration="5515000" />
     </task>
     <task id="LOCAL-00001" summary="almost finished open data innovation coursework">
       <created>1552525382196</created>
@@ -184,17 +196,30 @@
       <option name="project" value="LOCAL" />
       <updated>1552526053582</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix small bug that tips on map cannot show">
+      <created>1552526506852</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1552526506852</updated>
+    </task>
+    <task id="LOCAL-00004" summary="fix small bug that tips on map cannot show">
+      <created>1552527003752</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552527003752</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24608000" />
+    <option name="totallyTimeSpent" value="30964000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
-    <editor active="true" />
+    <frame x="840" y="23" width="840" height="1027" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29475588" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.5958486" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -222,7 +247,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="almost finished open data innovation coursework" />
     <MESSAGE value="index" />
-    <option name="LAST_COMMIT_MESSAGE" value="index" />
+    <MESSAGE value="fix small bug that tips on map cannot show" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix small bug that tips on map cannot show" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/CW1-data-new.csv">
@@ -237,32 +263,52 @@
       </provider>
       <provider selected="true" editor-type-id="csv-text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/CW1-No-NAN-data.csv">
+      <provider editor-type-id="csv-table-editor">
+        <state showInfoPanel="true" fixedHeaders="false" rowLines="3" />
+      </provider>
+      <provider selected="true" editor-type-id="csv-text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="34">
+            <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="244" column="22" lean-forward="true" selection-start-line="244" selection-start-column="22" selection-end-line="244" selection-end-column="22" />
+        <state relative-caret-position="102">
+          <caret line="84" selection-start-line="84" selection-end-line="85" selection-end-column="41" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" />
-            <element signature="e#3008#3216#0" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#!!top" expanded="true" />
+            <element signature="e#3373#7240#0" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#1;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#0;n#div#2;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#3;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#4;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#5;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#6;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#7;n#!!top" expanded="true" />
-            <element signature="e#5599#6706#0" />
-            <element signature="e#11265#12900#0" />
-            <element signature="e#5592#6185#0" />
-            <element signature="e#6259#7508#0" />
-            <element signature="e#7563#8814#0" />
-            <element signature="e#8866#9498#0" />
-            <element signature="e#9556#10683#0" />
+            <element signature="n#style#0;n#span#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#4;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#divdiv#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#6;n#!!top" expanded="true" />
+            <element signature="e#8695#9157#0" />
+            <element signature="e#9479#12946#0" />
+            <element signature="e#11299#12934#0" />
+            <element signature="e#13722#14971#0" />
+            <element signature="e#15026#16277#0" />
+            <element signature="e#16329#16961#0" />
+            <element signature="e#17019#18146#0" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="670">
+          <caret line="40" selection-start-line="40" selection-end-line="40" />
         </state>
       </provider>
     </entry>

@@ -1,6 +1,7 @@
 <html>
 <head>
 
+    <title>World Generation Visualisation</title>
     <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script type="text/javascript"
             src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
@@ -67,18 +68,22 @@
             top: 110px;
             left: 17px;
         }
+
+        #information {
+            position: absolute;
+            top: 700px;
+            left: 60px;
+            margin-right: 500px;
+        }
+
     </style>
 </head>
 
 <body>
 
-<h1>Open Data Innovation Demo</h1>
-<h3>ID: 29895162</h3>
-<h3>Name: Weiqin Ding</h3>
-
-<!--<div id="legend">-->
-<!---->
-<!--</div>-->
+<h1 align="center">Open Data Innovation Demo</h1>
+<h3 align="center">ID: 29895162</h3>
+<h3 align="center">Name: Weiqin Ding</h3>
 
 <div id="map">
     <div class="btn-group-vertical" role="group" aria-label="..." id="float-button-group">
@@ -251,8 +256,7 @@
                 + "<div><strong>Capacity:</strong> <span style='color:plum'>" + d.capacity_mw + "</span></div>"
                 + "<div><strong>Fuel:</strong> <span style='color:greenyellow'>" + d.fuel1 + "</span></div>"
                 + "<div><strong>Longitude:</strong> <span style='color:dodgerblue'>" + d.longitude + "</span></div>"
-                + "<divdiv><strong>Latitude:</strong> <span style='color:dodgerblue'>" + d.latitude+ "</span></divdiv>"
-                + "<div><strong>URL:</strong> <span style='color:coral'>" + d.url + "</span></div>"
+                + "<divdiv><strong>Latitude:</strong> <span style='color:dodgerblue'>" + d.latitude + "</span></divdiv>"
                 + "<div><strong>Generation(gwh):</strong> <span style='color:red'>" + d.estimated_generation_gwh + "</span></div>";
 
         });
@@ -511,6 +515,30 @@
     });
 
 </script>
+<div id="information">
+    <h3 align="center">Demo introduction</h3>
+    <hr />
+    <h4>Abstract</h4>
+    <p>
+        <l>This Demo shows every positions of those generations on the map.</l>
+        <l>You can <strong>zoom in, out and drag the map</strong> to the point what you want to see.</l>
+    </p>
+    <h4>Legend</h4>
+    <p>
+        <l>The legend which located at the right of the map, show out different types of fuel plot by different colors.</l>
+        <l>You can <strong>click</strong> each circle point in the legend and show out the specific fuel generation estimation.</l>
+        <l>And how it deployed in the whole world.</l>
+        <l>The bottom half of the legend indicates the relationship between the size of the circle and its value.</l>
+    </p>
+    <h4>Map</h4>
+    <p>
+        <l>In the map, you can see different types of circles. Each circle represent a generation.</l>
+        <l>You can <strong>move your mouse over these circles</strong>, it will show the details about this generation.</l>
+        <l>Zoom in or out will not impact the circle size, so, if you want to ge more clear vision, you can zoom in.</l>
+        <l>At the left-up of the map, you can use button or bar to zoom, and reset the map.</l>
+    </p>
+    <h4><a href="./Report.html">Report</a></h4>
+</div>
 </body>
 
 </html>
