@@ -295,14 +295,14 @@
             return elecQuantity[5];
     }
 
-    d3.json("./world-110m2.json", function (error, topology) {
+    d3.json("https://github.com/WeiqinDing/Open-Data-Innovation-CW1/blob/master/world-110m2.json", function (error, topology) {
         g.selectAll("path")
             .data(topojson.object(topology, topology.objects.countries).geometries)
             .enter()
             .append("path")
             .attr("d", path);
 
-        d3.csv("./CW1-No-NAN-data.csv", function (error, cities) {
+        d3.csv("https://github.com/WeiqinDing/Open-Data-Innovation-CW1/blob/master/CW1-No-NAN-data.csv", function (error, cities) {
 
             elecPoints = svg.selectAll("circle")
                 .data(cities)
